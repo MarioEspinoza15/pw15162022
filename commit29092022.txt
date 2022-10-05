@@ -1,0 +1,29 @@
+commit 562ff091c6948526287749069e9521de11bfde6e
+Author: CDM <CDM>
+Date:   Thu Sep 29 15:59:29 2022 -0600
+
+    Practica css P2
+
+commit ac41611e7c8f25478cf1b224f40d120b90a4cf8e
+Author: CDM <CDM>
+Date:   Wed Sep 28 15:55:30 2022 -0600
+
+    Practica Seminario HTML5 P1
+
+commit fde4cfae94a3b44d0cb79998471e72e6f6b0f301
+Author: CDM <CDM>
+Date:   Tue Sep 27 15:53:11 2022 -0600
+
+    Hola123
+
+commit f9383a85479cf73b3ccfd5595ce396ff56149686
+Author: CDM <CDM>
+Date:   Tue Sep 27 15:37:23 2022 -0600
+
+    Hola al archivo
+
+commit 75f12f00b210b7f5c27b68aa7afa28e727a666df
+Author: CDM <CDM>
+Date:   Tue Sep 27 15:32:44 2022 -0600
+
+    Primer commit
