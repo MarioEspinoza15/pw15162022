@@ -1,0 +1,32 @@
+header section{
+        background-color: #235d92;
+        display: flex;
+        justify-content: center;
+}
+
+header nav ul li{
+    display:inline-block;
+    float: right;
+}
+
+header nav{
+    /*margin-left: 1250px;*/
+    height: 100px;
+    background-color: #efefef;
+}
+
+aside section article nav{
+    background-color: #1d4973;
+    margin-top: -20px;
+    width: 12.15%;
+}
+
+aside section article nav ul li{
+    display:  flex;
+    color: white;
+    margin-bottom: 10px;
+}
+
+aside section article nav ul{
+    
+}
