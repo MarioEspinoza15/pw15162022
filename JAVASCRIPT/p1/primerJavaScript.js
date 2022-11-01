@@ -9,6 +9,6 @@ function quitarSITEC()  {
     if(Pregunta){
         alert("SITEC borrado...:(")
         let chi = document.getElementById("sitec");
-        chi.innerHTML = "Chale";
+        chi.innerHTML = "Chalee";
     }
 }
