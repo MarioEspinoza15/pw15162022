@@ -12,3 +12,10 @@ function quitarSITEC()  {
         chi.innerHTML = "Chalee";
     }
 }
+
+async function traePersona(){
+    const respuesta = await fetch("https://randomuser.me/api/");
+    const datos = await respuesta.json();
+    // console.log(datos);
+    console.log(datos.results[0].name.first+" "+datos.results[0].name.last);
+}
