@@ -3,7 +3,9 @@ const App = {
         return{
             mensaje: 'Hola Vue.js',
             muestra: false,
-            nombre: ""
+            nombre: "",
+            personas: [],
+            cantidad: 1
         }
     },
     methods:{
@@ -12,11 +14,14 @@ const App = {
         },
         randomuser: async function(){
             let n = ""
-            await axios.get('https://randomuser.me/api/')
+            let p = []
+            await axios.get('https://randomuser.me/api/?results='+this.cantidad)
             .then(function (response){
                 n = response.data.results[0].name.last
+                p = response.data.results
             });
             this.nombre = n
+            this.personas = p
         }
     }
 };
